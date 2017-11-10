@@ -5,9 +5,9 @@ import com.neusoft.utils.PageModel;
 
 public interface UserMapper {
 	
-	int insert(User ac);
+	int insert(User user);
 	
-	int update(User ac);
+	int update(User user);
 	
 	int del(int id);
 	

@@ -10,9 +10,9 @@ import com.neusoft.utils.PageModel;
  */
 public interface ApplyMapper {
 
-	int insert(Apply ac);
+	int insert(Apply ap);
 	
-	int update(Apply ac);
+	int update(Apply ap);
 	
 	int del(int id);
 	
